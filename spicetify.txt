@@ -1,0 +1,10 @@
+iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex
+
+spicetify instalation
+run in powershell
+when asked promt y/n answer y
+
+
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-Expression "& { $(Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/Nuzair46/Lyrixed/main/install.ps1') }"
+
+lyrixed instalation
